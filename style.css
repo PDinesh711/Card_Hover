@@ -13,6 +13,13 @@
     gap: 10px;
     background: radial-gradient(red, blue);
 }
+@media screen and (max-width: 500px){
+    .container{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top,red,blue);
+    }
+}
 
 .box{
     display: flex;
