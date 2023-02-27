@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+    background: radial-gradient(red, blue);
+}
+
+.box{
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background: url(../pra1/274240982_103607825569699_3302299059384105402_n.webp.png) no-repeat;
+    background-size: cover;
+    margin: 20px;                                         
+}
+.content{
+    width: 100%;
+    height: 100%;
+   font-size: xx-large;
+   font-weight: 600;
+   display: none;
+   color: white;
+   background-color: red;
+}
+h2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box:hover .content{
+    background-color: whitesmoke;
+    color:  #438483;
+    cursor: grab;
+    opacity: 0.7;
+    display: block;
+    border-radius: 5px;
+}
+
+.content::selection{
+    background-color: black;
+    color: yellow;
+}
